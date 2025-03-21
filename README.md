@@ -1,16 +1,17 @@
-# coffee_card
+My Coffee ID
 
-A new Flutter project.
+🌟 Overview
 
-## Getting Started
+My Coffee ID is a Flutter application that allows users to customize and display their coffee preferences, such as coffee strength and sugar level. The app demonstrates the use of StatelessWidget and StatefulWidget, along with fundamental Flutter UI components like Column, Container, Row, and Image.asset.
 
-This project is a starting point for a Flutter application.
+🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+✅ Displays a coffee preference card with customizable coffee strength and sugar level.
+✅ Uses StatefulWidget to dynamically update coffee preferences.
+✅ Implements essential UI components like AppBar, Column, Row, Container, and Image.asset.
+✅ Includes interactive buttons to modify coffee strength and sugar amount.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+🛠️ Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter
+Dart
