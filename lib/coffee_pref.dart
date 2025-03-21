@@ -3,6 +3,20 @@ import 'package:coffee_card/text_widget.dart';
 import 'package:flutter/material.dart';
 
 /*
+-- Stateful widget - A StatefulWidget is a widget that can change dynamically during its lifetime.
+ Unlike StatelessWidget, which remains the same once built,
+ StatefulWidget allows UI updates in response to user interactions, data changes, or events.
+
+-- Lifecycle of a Stateful Widget
+When a StatefulWidget is created, Flutter follows these steps:
+
+1️⃣ createState() is called → Creates an instance of the State class.
+2️⃣ initState() runs → Initializes variables, runs only once.
+3️⃣ build() method runs → UI is built using the current state.
+4️⃣ User Interaction Occurs → A button press, API response, etc.
+5️⃣ setState() -> is called , Updates state and triggers UI rebuild.
+6️⃣ dispose() -> Widget may be destroyed, dispose() is called when the widget is removed.
+
 -- The CoffeePref widget is a stateful widget in Flutter, meaning it can hold mutable
 state that changes over time.
 
